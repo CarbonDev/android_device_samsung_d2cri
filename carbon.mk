@@ -1,9 +1,6 @@
 $(call inherit-product, device/samsung/d2cri/full_d2cri.mk)
 
 # Inherit some common Carbon stuff.
-$(call inherit-product, vendor/carbon/config/common_cdma.mk)
-
-# Inherit some common Carbon stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # languages
